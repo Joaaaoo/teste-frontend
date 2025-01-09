@@ -10,6 +10,7 @@ function questao1() {
   }
 
   console.log("Questão 1 - Valor da SOMA:", SOMA); // Resultado esperado: 91
+  return SOMA;
 }
 
 module.exports = questao1;

@@ -6,9 +6,14 @@ Este projeto contém scripts para resolver questões específicas e calcular fat
 ## Estrutura do Projeto
 
 ```
-package.json  
+package.json 
+README.MD
 src/  
-  app.js  
+  app.js
+  public/
+    index.html
+    main.js
+    styles.css
   data/  
     faturamento.json  
     faturamento.xml  

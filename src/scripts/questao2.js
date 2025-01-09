@@ -16,12 +16,12 @@ function questao2() {
   }
 
   // Teste
-  const num = 21; // Substitua por qualquer número desejado
-  console.log(
-    `Questão 2 - O número ${num} ${
-      isFibonacci(num) ? "pertence" : "não pertence"
-    } à sequência de Fibonacci.`
-  );
+  const num = 23; // Substitua por qualquer número desejado
+  const resultado = `O número ${num} ${
+    isFibonacci(num) ? "pertence" : "não pertence"
+  } à sequência de Fibonacci.`;
+  console.log(`Questão 2 - ${resultado}`);
+  return resultado;
 }
 
 module.exports = questao2;

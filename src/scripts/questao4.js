@@ -23,6 +23,7 @@ function questao4() {
   const percentuais = calcularPercentual(faturamentoPorEstado);
   console.log("Questão 4 - Percentual por estado:");
   console.log(percentuais);
+  return percentuais;
 }
 
 module.exports = questao4;
