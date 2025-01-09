@@ -2,8 +2,8 @@ const { lerJSON, lerXML } = require("../helpers/leituraArquivo");
 const { calcularFaturamento } = require("../helpers/calculos");
 
 async function questao3() {
-  const faturamentoJSON = await lerJSON("./data/faturamento.json");
-  const faturamentoXML = await lerXML("./data/faturamento.xml");
+  const faturamentoJSON = await lerJSON("./src/data/faturamento.json");
+  const faturamentoXML = await lerXML("./src/data/faturamento.xml");
 
   console.log("Resultados com JSON:");
   console.log(calcularFaturamento(faturamentoJSON));
